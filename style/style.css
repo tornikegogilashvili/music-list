@@ -1,0 +1,326 @@
+*{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+}
+header{
+    width:100%;
+    height:94px;
+    background-color: #000000;
+    padding: 12px 100px;
+}
+header h1{
+    width:70px;
+    height:70px;
+    background-image: url(../image/music-note.png);
+    background-size: 100%;
+    text-indent:-999px;
+    float:left;
+    margin-right:168px;
+}
+header h1 a{
+    width:70px;
+    height: 70px;
+    display: block;
+    
+}
+.header-nav ul{
+    padding-top:24px;
+}
+.header-nav ul li{
+    font-size:18px;
+    color:#ffffff;
+    float: left;
+    padding:5px 10px;  
+}
+.header-nav ul li a{
+    color:#ffffff;
+}
+.header-nav ul li:hover{
+    border-bottom: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+/* -----header end-----  */
+
+/* -----main start----- */
+
+/* -------social icons------- */
+.social{
+    width:50px;
+    height:100px;
+    /* background-color: #000000; */
+    position:fixed;
+    right:0;
+    top:213px;
+}
+.social .fb, .social .instagram{
+    width:100%;
+    height:50%;
+    overflow: hidden;
+    background-size: 100%;
+}
+.fb{
+    background-image: url(../image/fb.png);
+}
+.fb:hover{
+    background-image: url(../image/facebook.png);
+    
+}
+.instagram{
+    background-image: url(../image/instagram.png);
+}
+.instagram:hover{
+    background-image: url(../image/instagrami.png);
+    
+}
+.social a{
+    width:100%;
+    height:100%;
+    display: block;
+}
+
+/* -------articles------- */
+/* .all{
+    padding:50px 106px 0 110px;
+    background-color: #ffffff;
+    
+} */
+.all .pirveli-satauri{
+    font-size: 24px;
+    font-family: sans-serif;
+    padding: 50px 106px 50px 110px;
+}
+.yvelaferi{
+    padding-left:110px;
+}
+.yvelaferi article{
+    display: inline-block;
+    /* float: left; */
+    padding-right:70px;
+    padding-bottom: 22px;
+    
+}
+/* article:first-child{
+    padding-left: 0;
+} */
+
+
+
+.yvelaferi section{
+    width:300px;
+    height:271px;
+    /* background-color: #c09191; */
+    border:solid #000000 1px;
+    position:relative;
+    
+}
+.yvelaferi section:hover{
+    box-shadow:0px 0px 10px  #000000;
+}
+.like{
+    width:50px;
+    height:50px;
+    overflow: hidden;
+    background-image: url(../image/like.png);
+    background-size: 100%;
+    position:absolute;
+    right:0;
+    top:0;
+}
+.like:hover{
+    background-image: url(../image/likes.png);
+}
+.like a{
+    width:100%;
+    height:80%;
+    display: block;
+}
+.line{
+    width:100%;
+    height:100%;
+    margin:57px 0 23px 0;
+    /* background-color: #000000; */
+    background-image: url(../image/sound.png);
+    background-size: 25%;
+    background-repeat: repeat-x;
+    
+}
+.line a{
+    width:100%;
+    height:27%;
+    display: block;
+}
+.yvelaferi section h3{
+    font-size: 18px;
+    font-family: sans-serif;
+    position:absolute;
+    top:145px;
+    left:12px;
+}
+.yvelaferi section p{
+    font-size: 14px;
+    font-family: sans-serif;
+    position:absolute;
+    left:12px;
+    bottom:49.96px;
+}
+.yvelaferi section p::after{
+    content:"..."
+}
+
+.yvelaferi article p{
+    margin-top: 10px;
+    font-size: 12px;
+} 
+.nugzara{
+    margin-bottom: 22px;
+}
+
+
+.yvelaferi article .nugzara a{
+    color:#000000;
+    width:300px;
+    position: absolute;
+    /* display: block; */
+}
+.yvelaferi article .nugzara a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.meore-satauri{
+    margin-bottom:22px;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.clear{
+    clear: both;
+}
+
+
+/* -------main end------- */
+/* -------footer------- */
+.last-div{
+    width:100%;
+    height:354px;
+    background-color: #000000;
+    margin-top:100px;
+    padding-top: 26px;
+}
+.surati{
+    width:150px;
+    height:150px;
+    
+    margin:0 auto;
+    background-image: url(../image/music-note.png);
+    background-size: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    
+}
+.footer-nav{
+    text-align: center;
+    margin-top:26px;
+    
+}
+.footer-nav ul li{
+    font-size: 18px;
+    font-family: sans-serif;
+    
+}
+.footer-nav ul li a{
+    color:#ffffff;;
+}
+.last{
+    font-size: 18px;
+    padding-top:50px;
+    color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* ------playlist.html----- */
+.play{
+    padding: 50px 110px;
+}
+.play-section{
+    float:left;
+    margin-right: 157px;
+    margin-bottom: 46px;
+}
+.play-section:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow:0px 0px 10px 20px rgba(0, 0, 0, 0.1);
+    
+    
+}
+.play-section h2{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #000000;
+    border:none;
+}
+.play nav{
+    padding-top:50px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.play nav ul li{
+    padding-bottom: 8px;
+}
+.imagee-div{
+    width: 260px;
+    height:65px;
+    background-color: #ffffff;
+    margin:0 auto;
+    background-image: url(../image/sound.png);
+    background-size: 25%;
+    margin-bottom: 106px;
+}
+.play-section1{
+    /* width:180px; */
+    float:left;
+    margin-right: 100px;
+    margin-bottom: 138px;
+}
+.play-section1:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.play-section1 h2{
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #000000;
+    border:none;
+}
+.play-section1:nth-child(1){
+    padding-right: 0;
+}
+.imagee-div1{
+    width: 260px;
+    height:65px;
+    background-color: #ffffff;
+    margin:0 auto;
+    background-image: url(../image/sound.png);
+    background-size: 25%;
+    margin-bottom: 106px;
+    
+}
+
+.thanks{
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 144px;
+}
+
+
